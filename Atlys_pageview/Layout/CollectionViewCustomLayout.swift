@@ -13,8 +13,8 @@ class CollectionViewCustomFlowLayout: UICollectionViewFlowLayout {
         super.prepare()
         
         guard let collectionView = collectionView else { return }
-        let itemSize = CGSize(width: collectionView.bounds.width * Constants.imageCellWidthMultiplier,
-                              height: collectionView.bounds.height * Constants.imageCellHeightMultiplier)
+        let itemSize = CGSize(width: collectionView.bounds.width * Constants.imageCellSizeMultiplier,
+                              height: collectionView.bounds.width * Constants.imageCellSizeMultiplier)
         self.itemSize = itemSize
         self.scrollDirection = .horizontal
         self.minimumLineSpacing = 0

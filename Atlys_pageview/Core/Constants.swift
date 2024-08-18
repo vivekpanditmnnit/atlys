@@ -20,8 +20,7 @@ class Constants {
     
     static let imageCornerRadius = 20.0
     
-    static let imageCellWidthMultiplier = 0.50
-    static let imageCellHeightMultiplier = 0.6
+    static let imageCellSizeMultiplier = 0.50
     
     static let normalScale = 0.95
     static let zoomScale = 1.25
